@@ -1,4 +1,4 @@
-import type { PDFViewer } from "pdfjs-dist/web/pdf_viewer.mjs";
+import type { PDFViewer } from "pdfjs-dist/web/pdf_viewer.js";
 import { viewportToScaled } from "../lib/coordinates";
 import type {
   IHighlight,
@@ -19,12 +19,12 @@ interface HighlightLayerProps<T_HT> {
     index: number,
     setTip: (
       highlight: T_ViewportHighlight<T_HT>,
-      callback: (highlight: T_ViewportHighlight<T_HT>) => JSX.Element,
+      callback: (highlight: T_ViewportHighlight<T_HT>) => JSX.Element
     ) => void,
     hideTip: () => void,
     viewportToScaled: (rect: LTWHP) => Scaled,
     screenshot: (position: LTWH) => string,
-    isScrolledTo: boolean,
+    isScrolledTo: boolean
   ) => JSX.Element;
   tip: {
     highlight: T_ViewportHighlight<T_HT>;
@@ -79,14 +79,14 @@ export function HighlightLayer<T_HT extends IHighlight>({
           hideTipAndSelection,
           (rect) => {
             const viewport = viewer.getPageView(
-              (rect.pageNumber || Number.parseInt(pageNumber)) - 1,
+              (rect.pageNumber || Number.parseInt(pageNumber)) - 1
             ).viewport;
 
             return viewportToScaled(rect, viewport);
           },
           (boundingRect) =>
             screenshot(boundingRect, Number.parseInt(pageNumber)),
-          isScrolledTo,
+          isScrolledTo
         );
       })}
     </div>

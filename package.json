@@ -1,6 +1,6 @@
 {
   "name": "react-pdf-highlighter-sp2",
-  "version": "8.0.0-beta.2",
+  "version": "8.0.0-beta.3",
   "description": "Set of React components for PDF annotation (forked from react-pdf-highlighter)",
   "author": "Sergey Smetannikov <sergeysmetannikov2@gmail.com>",
   "license": "MIT",
