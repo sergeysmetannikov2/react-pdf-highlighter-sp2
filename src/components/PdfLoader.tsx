@@ -27,7 +27,7 @@ export class PdfLoader extends Component<Props, State> {
   };
 
   static defaultProps = {
-    workerSrc: "https://unpkg.com/pdfjs-dist@4.4.168/build/pdf.worker.min.mjs",
+    workerSrc: "https://unpkg.com/pdfjs-dist@4.0.379/build/pdf.worker.min.mjs",
   };
 
   documentRef = React.createRef<HTMLElement>();
@@ -99,8 +99,8 @@ export class PdfLoader extends Component<Props, State> {
         {error
           ? this.renderError()
           : !pdfDocument || !children
-            ? beforeLoad
-            : children(pdfDocument)}
+          ? beforeLoad
+          : children(pdfDocument)}
       </>
     );
   }
