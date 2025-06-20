@@ -1,6 +1,6 @@
 {
   "name": "react-pdf-highlighter-sp2",
-  "version": "8.0.0-beta.3",
+  "version": "8.0.0-beta.4",
   "description": "Set of React components for PDF annotation (forked from react-pdf-highlighter)",
   "author": "Sergey Smetannikov <sergeysmetannikov2@gmail.com>",
   "license": "MIT",
@@ -43,10 +43,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/agentcooper/react-pdf-highlighter.git"
+    "url": "git+https://github.com/sergeysmetannikov2/react-pdf-highlighter-sp2"
   },
   "bugs": {
-    "url": "https://github.com/agentcooper/react-pdf-highlighter/issues"
+    "url": "https://github.com/sergeysmetannikov2/react-pdf-highlighter-sp2/issues"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.0",
@@ -61,5 +61,5 @@
     "vite": "^5.3.3",
     "vite-plugin-dts": "^4.1.1"
   },
-  "homepage": "https://github.com/agentcooper/react-pdf-highlighter#readme"
+  "homepage": "https://github.com/sergeysmetannikov2/react-pdf-highlighter-sp2#readme"
 }

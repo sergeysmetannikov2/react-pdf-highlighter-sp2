@@ -2,6 +2,11 @@
 
 Set of React components for PDF annotation (forked from [react-pdf-highlighter](https://github.com/agentcooper/react-pdf-highlighter)).
 
+Fork reasons:
+
+- PDF.js version 4.4.168 is not compatible with iOS < 16.4.
+- Using PDF.js version 3.11.174 because it is the latest version that is compatible with React 18 and iOS < 16.4.
+
 Features:
 
 - Built on top of PDF.js
@@ -36,4 +41,4 @@ npm install react-pdf-highlighter-sp2
 
 ## How to use
 
-See [`./example/src/App.tsx`](https://github.com/agentcooper/react-pdf-highlighter/blob/main/example/src/App.tsx) for the React component API example.
+See [`./example/src/App.tsx`](https://github.com/sergeysmetannikov2/react-pdf-highlighter-sp2/blob/main/example/src/App.tsx) for the React component API example.
