@@ -27,7 +27,7 @@ export class PdfLoader extends Component<Props, State> {
   };
 
   static defaultProps = {
-    workerSrc: "https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.mjs",
+    workerSrc: "https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js",
   };
 
   documentRef = React.createRef<HTMLElement>();
