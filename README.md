@@ -1,10 +1,6 @@
-☕️ [Buy me a coffee](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SC4D2NS8G2JJ8&source=url)
+# react-pdf-highlighter-sp2
 
-![Node CI](https://github.com/agentcooper/react-pdf-highlighter/workflows/Node%20CI/badge.svg)
-
-# react-pdf-highlighter
-
-Set of React components for PDF annotation.
+Set of React components for PDF annotation (forked from [react-pdf-highlighter](https://github.com/agentcooper/react-pdf-highlighter)).
 
 Features:
 
@@ -18,7 +14,7 @@ Features:
 The bundled CSS include the CSS for pdfjs.
 
 ```tsx
-import "react-pdf-highlighter/dist/style.css";
+import "react-pdf-highlighter-sp2/dist/style.css";
 ```
 
 ## Example
@@ -35,7 +31,7 @@ npm start
 ## Install
 
 ```bash
-npm install react-pdf-highlighter
+npm install react-pdf-highlighter-sp2
 ```
 
 ## How to use
